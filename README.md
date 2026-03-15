@@ -31,7 +31,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
  2. **Abra o terminal na pasta raiz do projeto:** <p>
 Pasta raiz - C:\temp\projeto-java\cliente-backv2 <p>
-IDE: no menu principal da IDE run java
+IDE: no menu principal da IDE run java <p> 
 Maven: para compilar e gerar o build exeute no terminal - mvn clean install <p>
 JAR: no cmd execute - java -jar cliente-backv2-0.0.1-SNAPSHOT.jar. 
 
