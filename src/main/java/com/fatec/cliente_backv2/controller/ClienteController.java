@@ -43,8 +43,9 @@ public class ClienteController {
 	// injecao da dependencia pelo metodo construtor
 	public ClienteController(IClienteService clienteService, IEnderecoService enderecoService) {
 		this.clienteService = clienteService;
-		// this.enderecoService = enderecoService;
-		this.enderecoService = new EnderecoServiceMock(); // stub para o consulta cep excluir do import
+		this.enderecoService = enderecoService;
+		// this.enderecoService = new EnderecoServiceMock(); // stub para o consulta cep
+		// excluir do import
 	}
 
 	/*
@@ -94,7 +95,7 @@ public class ClienteController {
 	}
 
 	/*
-	 * Consulta por cpf O cpf eh enviado no arquivo json clientedto com os outros
+	 * Consulta por cpf. O cpf eh enviado no arquivo json clientedto com os outros
 	 * atributos em branco
 	 */
 	@Operation(summary = "Consulta cliente por CPF", description = "Busca os detalhes de um cliente específico através do seu CPF informado no corpo da requisição")

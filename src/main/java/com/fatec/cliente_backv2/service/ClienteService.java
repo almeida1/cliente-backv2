@@ -6,8 +6,6 @@ import java.util.Optional;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-
 import com.fatec.cliente_backv2.model.Cliente;
 import com.fatec.cliente_backv2.model.ClienteDTO;
 import com.fatec.cliente_backv2.model.Endereco;
@@ -24,7 +22,6 @@ public class ClienteService implements IClienteService {
 	public ClienteService(IClienteRepository clienteRepository, IEnderecoService enderecoService) {
 		this.repository = clienteRepository;
 		// this.enderecoService = new EnderecoServiceMock(); //stub para consulta cep
-		// excluir do import
 
 		this.enderecoService = enderecoService;
 	}
