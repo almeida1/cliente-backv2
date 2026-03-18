@@ -27,7 +27,7 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/cliente-backend.git
+   git clone https://github.com/almeida2/cliente-back2.git
 
  2. **Abra o terminal na pasta raiz do projeto:** <p>
 Pasta raiz - C:\temp\projeto-java\cliente-backv2 <p>
