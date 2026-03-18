@@ -3,7 +3,7 @@
 ![Status do Projeto](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Esta é a API de gerenciamento de clientes, responsável por fornecer endpoints para operações de CRUD (Create, Read, Update, Delete) e integração com a interface frontend.
+Esta é a API de gerenciamento de clientes, responsável por fornecer endpoints para operações de CRUD (Create, Read, Update, Delete) para integração com interface de usuarios no frontend.
 
 ## 🚀 Tecnologias Utilizadas
 
